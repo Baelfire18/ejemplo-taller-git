@@ -36,7 +36,7 @@ input("Presiona ENTER para obtener una foto al azar de perritos ")
 foto_aleatorea = random.choice(lista_de_fotos)
 
 # Concatenamos para obtener la ruta completa de la foto
-ruta_foto = f"fotos\\{foto_aleatorea}"
+ruta_foto = os.path.join("fotos", foto_aleatorea)
 
 # Usamos la liberia os para abrir la foto seleccionada
 os.startfile(ruta_foto)
