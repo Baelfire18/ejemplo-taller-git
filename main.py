@@ -28,7 +28,8 @@ lista_de_fotos = os.listdir("fotos")
 
 # Imprimimos los archivos de fotos disponibles
 print("Opciones disponibles:")
-print(lista_de_fotos, "\n")
+for foto in lista_de_fotos:
+    print(f"- {foto}")
 
 input("Presiona ENTER para obtener una foto al azar de perritos ")
 
