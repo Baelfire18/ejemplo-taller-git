@@ -1,4 +1,4 @@
-# Template Demostración Taller Git Open Source UC
+# Ejemplo Taller
 
 > Template de uso de fotos aleatoreas de perritos para ejercicio de [taller de git Open Source UC](https://github.com/open-source-uc/talleres).
 
